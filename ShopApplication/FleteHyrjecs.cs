@@ -64,10 +64,6 @@ namespace ShopApplication
             DataTable tb = conn.GETFletehyrje_Artikull(fletehyrjeID);
             DataSet ds = new DataSet();
           
-
-
-
-
             flPrint.SetDataSource(tb);
 
             CrRep cs = new CrRep();
