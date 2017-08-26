@@ -65,6 +65,9 @@ namespace ShopApplication
             DataSet ds = new DataSet();
           
 
+
+
+
             flPrint.SetDataSource(tb);
 
             CrRep cs = new CrRep();
